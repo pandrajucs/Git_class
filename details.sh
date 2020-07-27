@@ -15,8 +15,10 @@ echo
 echo $(whoami)
 echo
 
-#Gives USERS details of system
+#Gives USERS details of system.
 
 USERS=$(cat /etc/passwd | cut -d ":" -f 1)
+
+echo "Represents USERS details in lists"
 
 echo $USERS
